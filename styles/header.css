@@ -20,21 +20,28 @@
     display: flex;
     align-items: center;
 }
-.container-imagem{
+
+.container-imagem {
     padding: 1em;
 }
-.lista-menu{
-    display:none;
+
+.lista-menu {
+    display: none;
     position: absolute;
     top: 100%;
 }
-.container-botao:checked ~ .lista-menu{
+
+.container-botao:checked~.lista-menu {
     display: block;
 }
-.lista-menu-titulo,.lista-item{
+
+.lista-menu-titulo,
+.lista-item {
     padding: 1em;
     background-color: var(--branco);
 }
-.lista-menu-titulo{
+
+.lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
